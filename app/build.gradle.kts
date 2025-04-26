@@ -54,6 +54,10 @@ dependencies {
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")    // Retrofit for network calls
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")      // Retrofit with GSON for JSON parsing
     implementation ("com.squareup.okhttp3:logging-interceptor:4.9.3")   // (Optional) Logging interceptor - helpful for debugging
+    implementation ("com.github.dhaval2404:imagepicker:2.1")
+    implementation ("com.google.android.gms:play-services-location:21.0.1")
+    implementation ("com.github.dhaval2404:imagepicker:2.1")
+    implementation(libs.play.services.cast.framework)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
