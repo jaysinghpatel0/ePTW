@@ -7,6 +7,6 @@ data class UpdateRequest(
     val deviceType: String,
     val deviceID: String,
     val ipAddress: String,
-    val permitID: String,
+//    val permitID: String,
     val permitNo: String
 )

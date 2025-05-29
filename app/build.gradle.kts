@@ -50,7 +50,7 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.appcompat)
-    implementation("net.sourceforge.jtds:jtds:1.3.1")
+//    implementation("net.sourceforge.jtds:jtds:1.3.1")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")    // Retrofit for network calls
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")      // Retrofit with GSON for JSON parsing
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")   // (Optional) Logging interceptor - helpful for debugging
@@ -58,6 +58,8 @@ dependencies {
     implementation("com.google.android.gms:play-services-location:21.0.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("commons-net:commons-net:3.8.0")
+//    implementation("com.microsoft.sqlserver:mssql-jdbc:12.6.1.jre11")       // JDBC driver for SQL Server
+    implementation(files("libs/jtds-1.3.1.jar"))
     implementation(libs.play.services.cast.framework)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
