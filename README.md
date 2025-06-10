@@ -34,7 +34,7 @@ _**Empowering seamless connections for smarter workflows.**_
 
 ## 📖 Overview
 
-The **EPTW Android app** is designed to enhance and digitize the permit-to-work (PTW) process at **JSW Grasim Chemicals** by enabling mobile-based actions integrated directly into their backend system — without using APIs.
+The **EPTW Android app** is designed to enhance and digitize the permit-to-work (PTW) process at **Aditya Birla Grasim Chemicals** by enabling mobile-based actions integrated directly into their backend system — without using APIs.
 
 ---
 
